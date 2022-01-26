@@ -1,0 +1,59 @@
+.easter {
+  width: 90vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.easter__left,
+.easter__right {
+  width: 400px;
+  min-width: 300px;
+  min-height: 300px;
+}
+
+.easter__left__img,
+.easter__right__img {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.easter__left__img p,
+.easter__right__img p {
+  position: absolute;
+  bottom: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 300;
+  font-size: 3rem;
+}
+.easter__left__img img,
+.easter__right__img img {
+  width: 100%;
+  height: 100%;
+}
+
+.easter__left__desc,
+.easter__right__desc {
+  font-weight: 200;
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+.easter__left__link,
+.easter__right__link {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.easter__left__link a,
+.easter__right__link a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid black;
+}

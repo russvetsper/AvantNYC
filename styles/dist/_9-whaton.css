@@ -1,0 +1,78 @@
+.whaton {
+  width: 90vw;
+  min-height: 70vh;
+  margin-top: 8rem;
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.whaton h2 {
+  font-weight: 400;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+}
+
+.whaton__main {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.whaton__left,
+.whaton__right {
+  height: 100%;
+  flex: 1;
+  display: flex;
+}
+
+.whaton__img {
+  width: 50%;
+  object-fit: contain;
+}
+
+.whaton__content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 2rem;
+}
+.whaton__content h3 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.whaton__content p {
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+.whaton__content h4 {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  font-weight: 300;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .whaton {
+    padding: 2rem 0;
+  }
+
+  .whaton__main {
+    flex-direction: column;
+  }
+
+  .whaton__left,
+.whaton__right {
+    margin: 2rem 0;
+  }
+}

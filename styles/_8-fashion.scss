@@ -1,0 +1,46 @@
+.fashion {
+    width: 100vw;
+    min-height: 70vh;
+    display: flex;
+    margin-top: 8rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    h2 {
+      text-transform: uppercase;
+      font-size: 3rem;
+      font-weight: 400;
+      margin-bottom: 3rem;
+    }
+    p {
+      font-size: 1rem;
+      font-weight: 200;
+      line-height: 21px;
+      letter-spacing: 0.08em;
+    }
+  }
+  .fashion__container {
+    height: 160px;
+    width: 960px;
+    display: flex;
+    margin-bottom: 3rem;
+    img {
+      height: 160px;
+      width: 240px;
+    }
+  }
+  .fashion__links {
+    display: flex;
+    width: 40vw;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3rem;
+    p {
+      border-bottom: 1px solid white;
+      text-transform: capitalize;
+      padding-bottom: 0.5rem;
+      cursor: pointer;
+    }
+  }
