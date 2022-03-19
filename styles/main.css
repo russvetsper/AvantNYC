@@ -733,8 +733,8 @@ body {
 }
 
 .products__card {
-  min-height: 400px;
-  min-width: 300px;
+  min-height: 50px;
+  min-width: 50px;
 }
 
 .products__card img {
