@@ -622,7 +622,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #fad274;
+  background-color: #F2F3F4;
 }
 
 .banner__left {
@@ -673,7 +673,7 @@ body {
   padding: 1rem 5rem;
   border: 1px solid black;
   text-transform: uppercase;
-  background-color: #fad274;
+  background-color: #F2F3F4;
   font-size: 1.5rem;
   font-weight: 300;
   cursor: pointer;
@@ -817,7 +817,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 3rem;
+  margin-bottom: 8rem;
 }
 
 .fashion__container img {
@@ -841,7 +841,7 @@ body {
 .fashion__links p {
   border-bottom: 1px solid white;
   text-transform: capitalize;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.8rem;
   cursor: pointer;
 }
 
