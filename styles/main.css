@@ -172,7 +172,7 @@ body {
 }
 
 #slider ul li:nth-child(1) {
-  background: url("../images/logo2.jpg");
+  background: url("../images/slider-1.jpg");
   background-size: cover;
   background-position: center center;
 }
