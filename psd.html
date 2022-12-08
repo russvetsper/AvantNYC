@@ -1,42 +1,166 @@
-<!DOCTYPE html>
-<html lang="en">
+ <!DOCTYPE html>
+  <html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AVANT</title>
-    <script
-      src="https://kit.fontawesome.com/1b0dea449a.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- SLICK  -->
-    <link rel="stylesheet" href="./slick/slick/slick.css" />
-    <link rel="stylesheet" href="./slick/slick/slick-theme.css" />
-    <!-- END SLICK  -->
-    <link rel="stylesheet" href="./styles/main.css" />
-
-    <script src="./app.js" defer></script>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  
+    <!-- Enable responsive view on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>PSD</title>
+    
+    <style type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+        background: #EEE;
+        font-family:Optima;
+      }
+      .wrap {
+        overflow: hidden;
+        margin: 10px;
+      }
+      .box {
+        float: left;
+        position: relative;
+        width:19.6vw;
+        height:19.6vw;
+      }
+      .boxInner {
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        top: 10px;
+        bottom: 10px;
+        overflow: hidden;
+        box-shadow:0 4px 20px rgba(0, 0, 0, 0.6);
+        border-radius:2px;
+      }
+      .boxInner img {
+        width: 100%;
+      }
+      .boxInner .titleBox {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        font-size:2em;
+        line-height:1.1;
+        background: #000;
+        background: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        padding: .3em;
+      }
+  
+      @media only screen and (max-width : 480px) {
+        /* Smartphone view: 1 tile */
+        .box {
+          width: 100vw;
+          height: 100vw;
+        }
+      }
+      @media only screen and (max-width : 650px) and (min-width : 481px) {
+        /* Tablet view: 2 tiles */
+        .box {
+          width: 47.9vw;
+          height: 47.9vw;
+        }
+      }
+      @media only screen and (max-width : 1050px) and (min-width : 651px) {
+        /* Small desktop / ipad view: 3 tiles */
+        .box {
+          width: 32.3vw;
+          height: 32.3vw;
+        }
+      }
+      @media only screen and (max-width : 1290px) and (min-width : 1051px) {
+        /* Medium desktop: 4 tiles */
+        .box {
+          width: 24.5vw;
+          height: 24.5vw;
+        }
+      }
+    </style>
+  
   </head>
-  <script type="text/javascript" src="./slick/slick/slick.min.js"></script>
-<script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"
-></script>
-<script type="text/javascript" src="./slick/slick/slick.js"></script>
-
-<div class="new-arrival__product">
-    <img src="./images/psd1.jpg" alt="product" />
-    <p>trojan.</p>
-  </div>
-
-  </html><div class="new-arrival__product">
-    <img src="./images/psd3.jpg" alt="product" />
-    <p>design.</p>
-  </div>
-
-  </html><div class="new-arrival__product">
-    <img src="./images/psd4.jpg" alt="product" />
-    <p>luxury.</p>
-  </div>
+  
+  <body>
+  
+    <div class="wrap">
+      
+      <div class="box">
+        <div class="boxInner">
+          <img src="./images/psd1.jpg" />
+          <div class="titleBox">Trojan</div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="boxInner">
+          <img src="./images/psd3.jpg" />
+          <div class="titleBox">Design</div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="boxInner">
+          <img src="./images/psd4.jpg" />
+          <div class="titleBox">Luxury</div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="boxInner">
+          <img src="./images/psd5.jpg" />
+          <div class="titleBox">Sponge Bob</div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="boxInner">
+          <img src="./images/psd6.jpg" />
+          <div class="titleBox">Money</div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="boxInner">
+          <img src="./images/psd7.jpg" />
+          <div class="titleBox">Warface</div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="boxInner">
+          <img src="./images/psd8.jpg" />
+          <div class="titleBox">Morty</div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="boxInner">
+          <img src="./images/psd9.jpg" />
+          <div class="titleBox">Morty2</div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="boxInner">
+          <img src="./images/psd10.jpg" />
+          <div class="titleBox">Parental</div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="boxInner">
+          <img src="./images/psd11.jpg" />
+          <div class="titleBox">Nice Trip</div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="boxInner">
+          <img src="./images/psd12.jpg" />
+          <div class="titleBox">Lips Smoking</div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="boxInner">
+          <img src="./images/psd13.jpg" />
+          <div class="titleBox">Warface2</div>
+        </div>
+      </div>
+      
+    </div>
+    
   </body>
   </html>
